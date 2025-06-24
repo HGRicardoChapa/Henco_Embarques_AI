@@ -1,0 +1,33 @@
+# Ignorar entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Ignorar archivos/parquets de datos
+*.parquet
+data/
+
+# Ignorar cachés de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar archivos de configuración de usuario
+*.env
+*.DS_Store
+*.swp
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de Jupyter
+*.ipynb_checkpoints/
+
+# Ignorar archivos de VSCode
+.vscode/
+
+# Ignorar archivos de bases de datos DuckDB
+*.duckdb
+
+# Ignorar archivos temporales
+*.tmp
+*.bak
